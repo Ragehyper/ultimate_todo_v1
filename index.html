@@ -7,15 +7,13 @@
     <title>The Ultimate TODO</title>
   </head>
   <body>
-    <h1>The Ultimate TODO</h1>
-    <h4>Google if you get stuck</h4>
-    <ul>
-      <li>Add an todo item to the list</li>
-      <li>Remove an item from the todo list</li>
-      <li>Edit an item from the todo list</li>
-      <li>Style -- you will need to connect a css file to the html</li>
-      <li>Push code!</li>
-    </ul>
+    <h3>My TODO-LIST</h3>
+    <div class="container">
+      <input id="todoInput" />
+      <button onclick="addTodoItem()">Add</button>
+      <ul class="todoList" id="todoList"></ul>
+    </div>
+
     <!-- * IMPORTANT: This is where we connect our javascript file with its path relative to this file -->
     <script type="text/javascript" src="./index.js"></script>
   </body>
